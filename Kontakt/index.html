@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+        background: #f1f5f9;
+      }
+
+      .page {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
+      }
+
+      .card {
+        background: white;
+        max-width: 600px;
+        width: 100%;
+        padding: clamp(1.5rem, 5vw, 2.5rem);
+        border-radius: 16px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        text-align: center;
+      }
+
+      .card h1 {
+        font-size: clamp(1.8rem, 4vw, 2.4rem);
+        margin-bottom: 1.5rem;
+      }
+
+      .card p {
+        font-size: 1.05rem;
+        color: #475569;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+      }
+
+      /* Kontakt-Buttons */
+      .contact-link {
+        display: block;
+        padding: 0.9rem 1rem;
+        margin: 0.5rem 0;
+        border-radius: 12px;
+        background: #2563eb;
+        color: white;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background 0.2s ease, transform 0.2s ease;
+      }
+
+      .contact-link:hover {
+        background: #1e40af;
+        transform: translateY(-2px);
+      }
+
+      /* Kleine Erklärung */
+      .hint {
+        font-size: 0.9rem;
+        color: #64748b;
+        margin-top: 1.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="card">
+        <h1>Kontakt</h1>
+
+        <a class="contact-link" href="tel:+4915562678364">
+          📞 Telefon
+        </a>
+
+        <a class="contact-link" href="mailto:louisz1@gmx.de">
+          ✉️ E-Mail
+        </a>
+
+        <p class="hint">
+          Kurz anrufen oder schreiben – ich melde mich schnell zurück.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

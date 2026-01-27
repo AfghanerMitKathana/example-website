@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Willkommen auf unserer Homepage</title>
+
+  <style>
+    body {
+      font-family: Times New Roman, serif;
+      background: #cccccc;
+      color: #000000;
+    }
+
+    /* Feste Breite – absolut nicht responsive */
+    .wrapper {
+      width: 980px;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 3px solid #000;
+    }
+
+    header {
+      background: #003366;
+      color: yellow;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background: #999999;
+      padding: 5px;
+      text-align: center;
+    }
+
+    nav a {
+      color: blue;
+      text-decoration: underline;
+      margin: 0 10px;
+      font-size: 12px;
+    }
+
+    .content {
+      display: flex;
+    }
+
+    .sidebar {
+      width: 250px;
+      background: #eeeeee;
+      padding: 10px;
+      font-size: 12px;
+    }
+
+    .main {
+      width: 730px;
+      padding: 10px;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-size: 22px;
+    }
+
+    h2 {
+      font-size: 16px;
+      text-decoration: underline;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    .button {
+      background: red;
+      color: white;
+      padding: 5px;
+      font-size: 12px;
+      border: 2px outset #000;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: #666666;
+      color: white;
+      text-align: center;
+      font-size: 11px;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <h1>Herzlich Willkommen</h1>
+      <p>Dies ist unsere Internetseite</p>
+    </header>
+
+    <nav>
+      <a href="#">Startseite</a>
+      <a href="#">Über uns</a>
+      <a href="#">Leistungen</a>
+      <a href="#">Kontakt</a>
+      <a href="#">Impressum</a>
+    </nav>
+
+    <div class="content">
+
+      <div class="sidebar">
+        <h2>Navigation</h2>
+        <ul>
+          <li>Start</li>
+          <li>Infos</li>
+          <li>Service</li>
+          <li>Kontakt</li>
+        </ul>
+
+        <p>
+          Öffnungszeiten:<br>
+          Mo–Fr 9–17 Uhr
+        </p>
+      </div>
+
+      <div class="main">
+        <h2>Über unsere Firma</h2>
+        <p>
+          Wir sind ein Unternehmen und bieten verschiedene Dienstleistungen an.
+          Unsere Firma besteht seit vielen Jahren und wir haben viel Erfahrung
+          in dem was wir tun.
+        </p>
+
+        <p>
+          Unsere Kunden sind sehr zufrieden mit unserer Arbeit und wir legen
+          großen Wert auf Qualität und Zuverlässigkeit.
+        </p>
+
+        <div class="button">Hier klicken</div>
+
+        <h2>Unsere Leistungen</h2>
+        <p>- Beratung</p>
+        <p>- Service</p>
+        <p>- Support</p>
+      </div>
+
+    </div>
+
+    <footer>
+      © 2009 Musterfirma – Alle Rechte vorbehalten
+    </footer>
+
+  </div>
+
+</body>
+</html>
